@@ -3,17 +3,22 @@ body{
     padding:0;
     background-color: #eadbc8;
 }
-#messages{
-    top:0;
-    margin: 20px auto 10px auto;
-    width: 30%;
-    padding:10px;
-    box-sizing: border-box;
-    border: 2px solid blueviolet;
-    border-radius: 10px;
-    background-color: #08977b;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
+.contMag {
+  margin-top: 5%;
+  overflow: auto; /* Add this line to enable scrolling */
+  max-height: 500px; /* Set a max-height to limit the height of the div */
+}
+#messages {
+  top: 0;
+  margin: 20px auto 10px auto;
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: #08977b;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .meSelf{
     background:green;
@@ -42,6 +47,7 @@ body{
 .input-container {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 #textMsg {
